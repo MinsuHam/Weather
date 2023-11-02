@@ -1,0 +1,211 @@
+/* @import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('weather-icons.min.css');
+@import url('weather-icons-wind.min.css');
+@import url('remixicon.css');
+@import url('../slick/slick.css');
+@import url('../slick/slick-theme.css');
+@import url('../bootstrap/css/bootstrap.min.css');
+
+/* reset */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#333;
+    font-size:16px;
+    margin-top:50px;
+}
+a, a:link{
+    text-decoration:none;
+    color:#333;
+}
+a:hover{
+    text-decoration:underline;
+    color:#666;
+}
+
+/** header */
+header {
+    width: 100%;
+    height: 150px;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #a1dbdb;
+    color:#666;
+}
+
+/** banner */
+.banner {
+    height: 730px;
+    background:#adc3e4 url(../images/1.webp) no-repeat;
+    background-size: 100%;
+    padding-top: 5px;
+    
+}
+/** slider */
+.slider h1 {
+    font-size:35px;
+    letter-spacing:1px;
+    font-weight:900;
+    color:#000;
+    margin-bottom:10px;
+}
+.description-title {
+    font-size:25px;
+    font-weight:500;
+    color:#333;
+    line-height:30px;
+}
+.description {
+    color:#333;
+    font-weight:300;
+    margin-bottom:30px;
+}
+.text {
+    color:#333;
+    font-weight:300;
+    margin-bottom:30px;
+}
+.btn-download {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin-top: 0px;
+}
+.btn-download:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn-download:active {
+	position:relative;
+	top:1px;
+}
+
+/** .slide right **/
+.slick-slide {
+    padding-left:15px;
+    padding-right:15px;
+}
+.mobile-phone {
+    width:300px;
+    height:550px;
+    background:#8bc7e3;
+    border-radius:5px;
+    overflow:hidden;
+    margin-top: 0;
+}
+.mobile-phone.pup {
+    background:#cdb2dd;
+}
+.top {
+    padding: 5px 10px;
+
+}
+.top i {
+    font-size:25px;
+    color:#fff;
+}
+.mobile-date {
+    font-size:16px;
+    color:#fff;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.today-city-name {
+    text-transform: uppercase;
+}
+.mobile-phone .content {
+    background-color:#cce4f0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.mobile-phone.pup .content {
+    background-color:rgb(235, 222, 242);
+}
+.today-city-name {
+    color:#276873;
+    font-size: 30px;
+    font-weight:700;
+    margin: 50px 0 20px;
+}
+.today-city-time {
+    color: #000;
+    margin-bottom:30px;
+}
+.weatherbox {
+    width:85%;
+    margin: 40px 50px 30px 5px;
+    text-align: left;
+}
+.weatherbox .wi {
+    font-size: 50px;
+}
+.weatherbox .today-temp {
+    color: #276873;
+    font-size: 50px;
+    line-height:50px;
+    font-weight:900;
+}
+.today-temp span {
+    font-size: 15px;
+    vertical-align: text-top;
+}
+.today-temp-arrow {
+    font-size: 15px;
+    color: #666;
+    font-weight: 800;
+}
+.today-temp-arrow span {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 800;
+}
+
+.temp-box-pr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.temp-box {
+    width: 80px;
+    height: 90px;
+    border-radius: 5px;
+    background:#599bb3;
+    padding: 7px;
+    font-size: 14px;
+    letter-spacing:-1px;
+    color:#fff;
+    font-weight:600;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 45px;
+}
+.mobile-phone.pup .temp-box {
+    background:rgb(209, 193, 219);
+}
+.temp-box i{
+    font-size:30px;
+    margin-top:10px;
+}
+.wi{
+    text-shadow:0 0 10px rgba(84,100,8,0.5);
+}
+footer {
+    margin-top:50px;
+    padding-top:60px;
+    padding-bottom:80px;
+    text-align:center;
+    color:#efefef;
+    background-color:#081318;
+}
